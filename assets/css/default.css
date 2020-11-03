@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  font-weight: normal;
+}
+.mu-body {
+  width: 100%;
+}
+
+.mu-row {
+  width: 100%;
+  /* border: 1px solid red; */
+}
+.mu-row--gap {
+  margin-bottom: 20px;
+}
+
+.mu-text--uppercase h1 {
+  text-transform: uppercase;
+}
+ .mu-text--left h1 {
+    text-align: left;
+ }
+ .mu-text--center h1 {
+   text-align: center;
+ }
+
+ .mu-text--script h1 {
+   font-size: 50px;
+   margin: -10px;
+   font-family: ;
+ }
+
+ .mu-text--sans-serif h1 {
+   font-family: helvetica, verdana, sans-serif;
+   font-weight: lighter;
+ }
+ .mu-text--serif h1 {
+   font-family: courier, serif;
+   margin-bottom: -15px;
+ }
